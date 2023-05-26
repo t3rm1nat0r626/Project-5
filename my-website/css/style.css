@@ -1,0 +1,39 @@
+html {
+    margin: 5px;
+    padding: px;
+    background-color: rgb(32, 44, 44);
+}
+
+div {
+    padding: px;
+    border-color: rgb(25, 49, 49);
+    border-width: 5px;
+    border-style: outset;
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes example {
+    from {
+        left: -275px;
+    }
+
+    to {
+        left: 0px;
+    }
+}
+
+
+li :hover {
+    padding: 5px;
+    margin: 5px;
+}
+
+img {
+    border-style: outset;
+    border-color: rgb(32, 44, 44);
+    border-width: 10px;
+}
